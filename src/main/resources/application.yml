@@ -1,0 +1,6 @@
+application:
+  jwt:
+    secret: "secret"
+    expiresAt: 3600
+    header: "Authorization"
+    prefix: "Bearer "
